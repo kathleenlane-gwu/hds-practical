@@ -6,7 +6,8 @@ Using the `HDS Practical` Repo for lab one.
 hds-practical/
 ├── README.md
 ├── .gitignore
-├── environment.yml        
+├── environment.yml
+├── renv.lock      
 ├── src/ (or scripts/)
 ├── data/
     ├── patients.csv
