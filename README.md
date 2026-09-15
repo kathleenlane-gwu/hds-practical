@@ -8,7 +8,9 @@ hds-practical/
 ├── .gitignore
 ├── environment.yml
 ├── renv.lock      
-├── src/ (or scripts/)
+├── src/
+    ├── analyze.py
+    ├── analyze.R
 ├── data/
     ├── patients.csv
     ├── patients_by_age.csv
