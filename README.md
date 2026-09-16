@@ -51,3 +51,9 @@ Return to the terminal and copy/paste the following code. Once these steps are c
 ```
 Rscript src/analyze.R
 ```
+## Docker
+To run check the Dockerfile, copy and paste the following into your terminal.
+```
+docker build -t repro-demo .
+docker run --rm repro-demo
+```
