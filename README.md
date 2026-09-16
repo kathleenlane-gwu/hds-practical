@@ -34,4 +34,19 @@ cd hds-practical
 ls 
 ```
 ## Analysis
-To run `python src/analyze.py` or `Rscript src/analyze.R`, you must access these files from the script (src) folder.
+To run `python src/analyze.py` or `Rscript src/analyze.R`, you must first recreate the necessary environments. We will begin with the python file. 
+
+In the terminal, copy/paste the following code. `mamba env create` recreates the necessary environment from the `environment.yml` file. We then need to access the hds-practical environment which has the necessary Python and packages need to run our analyses. Once these steps are complete, we can open and run the `analyze.py` file.
+```
+mamba env create -f environment.yml
+mamba activate repro-demo
+python src/analyze.py
+```
+For our R file, open RStudio and copy/paste the following code into the R console. `renv::restore()` recreates the R environment from the `renv.lock` file. 
+```
+renv::restore()
+```
+Return to the terminal and copy/paste the following code. Once these steps are complete, we can open and run the `analyze.R` file.
+```
+Rscript src/analyze.R
+```
