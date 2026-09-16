@@ -34,4 +34,4 @@ cd hds-practical
 ls 
 ```
 ## Analysis
-To run `python src/analyze.py` or `Rscript src/analyze.R`, you must access these files from the script folder.
+To run `python src/analyze.py` or `Rscript src/analyze.R`, you must access these files from the script (src) folder.
