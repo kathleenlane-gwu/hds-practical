@@ -5,6 +5,7 @@
 hds-practical/
 ├── README.md
 ├── .gitignore
+├── Dockerfile
 ├── environment.yml
 ├── renv.lock      
 ├── src/
