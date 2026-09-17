@@ -1,0 +1,2 @@
+## Graduate Addendum
+I used both conda and renv for this project and can safely say I would prefer to use conda in the future. I struggled with my renv.lock file because it left out the `dplyr` package that I was using in the script. I was following the exact directions by saving my script before opening the lock file, and it still wasn't there. Once I created an .Rproj file for the script, I did not run into that issue. I had no issues with conda and, therefore, would use it again.
