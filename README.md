@@ -49,7 +49,7 @@ For our R file, open RStudio and copy/paste the following code into the R consol
 setwd("~Desktop/hds-practical")
 renv::init()
 ```
-renv::init() will create four options to choose from. Choose the first option, "Restore the project from the lockfile" by entering '1' into the console. Then run the following in the R console.
+`renv::init()` will create four options to choose from. Choose the first option, "Restore the project from the lockfile" by entering '1' into the console. Then run the following in the R console.
 ```
 source("src/analyze.R")
 ```
