@@ -55,6 +55,7 @@ Rscript src/analyze.R
 ## Docker
 To run check the Dockerfile, copy and paste the following into your terminal.
 ```
+cd ~/Desktop/hds-practical
 docker build -t repro-demo .
 docker run --rm repro-demo
 ```
