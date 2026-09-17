@@ -44,13 +44,14 @@ mamba env create -f environment.yml
 conda activate repro-demo
 python src/analyze.py
 ```
-For our R file, open RStudio and copy/paste the following code into the R console. `renv::restore()` recreates the R environment from the `renv.lock` file. 
+For our R file, open RStudio and copy/paste the following code into the R console. We are setting `hds-practical` as our working directory and initializing renv.  
 ```
-renv::restore()
+setwd("~Desktop/hds-practical")
+renv::init()
 ```
-Return to the terminal and copy/paste the following code. Once these steps are complete, we can open and run the `analyze.R` file.
+renv::init() will create four options to choose from. Choose the first option, "Restore the project from the lockfile" by entering '1' into the console. Then run the following in the R console.
 ```
-Rscript src/analyze.R
+source("src/analyze.R")
 ```
 ## Docker
 To run check the Dockerfile, copy and paste the following into your terminal.
