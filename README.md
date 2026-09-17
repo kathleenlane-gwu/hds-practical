@@ -14,6 +14,7 @@ hds-practical/
 ├── data/
     ├── patients.csv
     ├── patients_by_age.csv
+├── GRAD_ADDON.md
 └── AI_USAGE.md
 ```
 
